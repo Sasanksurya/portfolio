@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Secure IoV Authentication",
     description:
-      "Blockchain-based secure authentication mechanism for Internet of Vehicles with enhanced privacy and trust architecture.",
+      "Blockchain-based secure authentication mechanism for Internet of Vehicles with privacy-preserving decentralized trust architecture.",
     image: "/projects/secure-iov.png",
     github: "https://github.com/Sasanksurya/secure-iov-authentication-system",
     tech: ["Blockchain", "Python", "Security"],
@@ -25,7 +25,8 @@ const projects = [
     description:
       "Interactive business intelligence dashboard for e-commerce analytics and customer behavior analysis.",
     image: "/projects/brazil-ecommerce.png",
-    github: "https://github.com/Sasanksurya/brazilian-ecommerce-analytics-dashboard",
+    github:
+      "https://github.com/Sasanksurya/brazilian-ecommerce-analytics-dashboard",
     tech: ["Analytics", "SQL", "Dashboard"],
   },
 ];
@@ -45,8 +46,8 @@ const skills = [
   "Streamlit",
   "Git",
   "GitHub",
-  "Next.js",
   "React",
+  "Next.js",
 ];
 
 export default function Portfolio() {
@@ -71,20 +72,23 @@ export default function Portfolio() {
 
             <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
               Computer Science graduate passionate about Artificial Intelligence,
-              Machine Learning, Generative AI, and scalable software systems.
-              Building impactful real-world AI solutions.
+              Machine Learning, Generative AI, data analytics, and scalable
+              software engineering. Building impactful AI solutions for real-world
+              challenges.
             </p>
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="/resume.pdf"
+                href="/SASANK_SURYA_THOTA.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 rounded-2xl bg-blue-600 hover:bg-blue-500 transition font-semibold"
               >
                 Resume
               </a>
 
               <a
-                href="mailto:yourmail@gmail.com"
+                href="mailto:YOUR_EMAIL@gmail.com"
                 className="px-8 py-4 rounded-2xl border border-slate-600 hover:border-blue-400 transition"
               >
                 Contact
@@ -110,6 +114,7 @@ export default function Portfolio() {
             </div>
           </div>
 
+          {/* PROFILE */}
           <div className="relative flex justify-center">
             <div className="absolute -inset-6 bg-blue-500/20 blur-3xl rounded-3xl"></div>
 
@@ -126,22 +131,6 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* SKILLS */}
-        <section className="py-20">
-          <h2 className="text-5xl font-bold mb-12 text-center">Skills</h2>
-
-          <div className="flex flex-wrap justify-center gap-4">
-            {skills.map((skill) => (
-              <span
-                key={skill}
-                className="px-5 py-3 rounded-full bg-slate-800 border border-blue-500/20 text-slate-200"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </section>
-
         {/* EDUCATION */}
         <section className="py-20">
           <h2 className="text-5xl font-bold mb-12 text-center">Education</h2>
@@ -151,11 +140,27 @@ export default function Portfolio() {
               Bachelor of Technology in Computer Science Engineering
             </h3>
             <p className="text-slate-300 mt-2">
-              Your College Name
+              SRM University AP
             </p>
             <p className="text-slate-400 mt-2">
-              Graduation Year: 2026
+              CGPA: 8.9
             </p>
+          </div>
+        </section>
+
+        {/* SKILLS */}
+        <section className="py-20">
+          <h2 className="text-5xl font-bold mb-12 text-center">Skills</h2>
+
+          <div className="flex flex-wrap justify-center gap-4">
+            {skills.map((skill) => (
+              <span
+                key={skill}
+                className="px-5 py-3 rounded-full bg-slate-800 border border-blue-500/20"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </section>
 
@@ -186,7 +191,6 @@ export default function Portfolio() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
-
                   <p className="text-slate-400 mb-5">{project.description}</p>
 
                   <div className="flex flex-wrap gap-2">
@@ -213,14 +217,13 @@ export default function Portfolio() {
 
           <div className="bg-slate-900 border border-blue-500/20 rounded-3xl p-8">
             <h3 className="text-2xl font-bold mb-4">
-              Secure Authentication Mechanisms in Internet of Vehicles
+              Secure Authentication in Internet of Vehicles Using Blockchain
             </h3>
 
             <p className="text-slate-300 text-lg leading-relaxed">
-              Published research focused on enhancing secure authentication
-              mechanisms in Internet of Vehicles (IoV) environments using
-              blockchain architecture for decentralized trust and privacy
-              protection.
+              Published research focused on secure authentication mechanisms
+              in Internet of Vehicles environments using blockchain architecture
+              for decentralized trust, privacy preservation, and enhanced security.
             </p>
           </div>
         </section>
@@ -234,7 +237,7 @@ export default function Portfolio() {
           </p>
 
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:YOUR_EMAIL@gmail.com"
             className="px-10 py-5 rounded-2xl bg-blue-600 hover:bg-blue-500 transition text-lg font-semibold"
           >
             Contact Me
@@ -242,7 +245,7 @@ export default function Portfolio() {
         </section>
 
         <footer className="py-10 text-center text-slate-500">
-          © 2026 SASANK SURYA THOTA. All rights reserved.
+          © 2026 SASANK SURYA THOTA
         </footer>
       </div>
     </main>
