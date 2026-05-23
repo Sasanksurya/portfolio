@@ -38,7 +38,7 @@ const skills = [
   "Machine Learning",
   "Deep Learning",
   "Generative AI",
-  "NLP",
+  "Natural Language Processing",
   "SQL",
   "Power BI",
   "Tableau",
@@ -56,7 +56,7 @@ export default function Portfolio() {
       <AnimatedBackground />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
-        {/* HERO */}
+        {/* HERO SECTION */}
         <section className="grid lg:grid-cols-2 gap-16 items-center min-h-screen">
           <div className="space-y-8">
             <div className="inline-block px-6 py-3 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400">
@@ -73,8 +73,8 @@ export default function Portfolio() {
             <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
               Computer Science graduate passionate about Artificial Intelligence,
               Machine Learning, Generative AI, data analytics, and scalable
-              software engineering. Building impactful AI solutions for real-world
-              challenges.
+              software engineering. Building impactful AI-driven solutions for
+              real-world challenges.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -88,7 +88,7 @@ export default function Portfolio() {
               </a>
 
               <a
-                href="mailto:YOUR_EMAIL@gmail.com"
+                href="mailto:shashanksurya24@gmail.com"
                 className="px-8 py-4 rounded-2xl border border-slate-600 hover:border-blue-400 transition"
               >
                 Contact
@@ -114,7 +114,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* PROFILE */}
+          {/* PROFILE IMAGE */}
           <div className="relative flex justify-center">
             <div className="absolute -inset-6 bg-blue-500/20 blur-3xl rounded-3xl"></div>
 
@@ -139,12 +139,10 @@ export default function Portfolio() {
             <h3 className="text-2xl font-bold">
               Bachelor of Technology in Computer Science Engineering
             </h3>
-            <p className="text-slate-300 mt-2">
-              SRM University AP
-            </p>
-            <p className="text-slate-400 mt-2">
-              CGPA: 8.9
-            </p>
+
+            <p className="text-slate-300 mt-2">SRM University AP</p>
+
+            <p className="text-slate-400 mt-2">CGPA: 8.9</p>
           </div>
         </section>
 
@@ -191,6 +189,7 @@ export default function Portfolio() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
+
                   <p className="text-slate-400 mb-5">{project.description}</p>
 
                   <div className="flex flex-wrap gap-2">
@@ -221,9 +220,9 @@ export default function Portfolio() {
             </h3>
 
             <p className="text-slate-300 text-lg leading-relaxed">
-              Published research focused on secure authentication mechanisms
-              in Internet of Vehicles environments using blockchain architecture
-              for decentralized trust, privacy preservation, and enhanced security.
+              Published research focused on secure authentication mechanisms in
+              Internet of Vehicles environments using blockchain architecture for
+              decentralized trust, privacy preservation, and enhanced security.
             </p>
           </div>
         </section>
@@ -232,18 +231,27 @@ export default function Portfolio() {
         <section className="py-20 text-center">
           <h2 className="text-5xl font-bold mb-8">Let’s Connect</h2>
 
-          <p className="text-slate-300 text-xl mb-8">
+          <p className="text-slate-300 text-xl mb-4">
             Open to AI/ML Engineer, Software Engineer, and Generative AI roles.
           </p>
 
+          <p className="text-slate-400 text-lg mb-2">
+            Email: shashanksurya24@gmail.com
+          </p>
+
+          <p className="text-slate-400 text-lg mb-8">
+            Phone: +91 6300330998
+          </p>
+
           <a
-            href="shashanksurya24@gmail.com"
+            href="mailto:shashanksurya24@gmail.com"
             className="px-10 py-5 rounded-2xl bg-blue-600 hover:bg-blue-500 transition text-lg font-semibold"
           >
             Contact Me
           </a>
         </section>
 
+        {/* FOOTER */}
         <footer className="py-10 text-center text-slate-500">
           © 2026 SASANK SURYA THOTA
         </footer>
