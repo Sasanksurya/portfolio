@@ -104,7 +104,7 @@ export default function Portfolio() {
               </a>
 
               <a
-                href="YOUR_LINKEDIN_URL"
+                href="https://www.linkedin.com/in/thotasasanksurya/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 rounded-2xl border border-slate-600 hover:border-blue-400 transition"
@@ -237,7 +237,7 @@ export default function Portfolio() {
           </p>
 
           <a
-            href="mailto:YOUR_EMAIL@gmail.com"
+            href="shashanksurya24@gmail.com"
             className="px-10 py-5 rounded-2xl bg-blue-600 hover:bg-blue-500 transition text-lg font-semibold"
           >
             Contact Me
